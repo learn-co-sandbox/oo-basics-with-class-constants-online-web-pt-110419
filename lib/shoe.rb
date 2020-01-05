@@ -8,7 +8,7 @@ class Shoe
       @brands = brands
       @size =size
        if BRANDS > brands
-         BRANDS.include?(brand)
+         BRANDS.include?(brands)
        else 
           BRANDS
         end 
