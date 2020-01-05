@@ -12,7 +12,7 @@ class Shoe
        else 
           BRANDS
         end 
-      end
+      
    end
   # binding.pry
    #def brands=(brands)
