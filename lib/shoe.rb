@@ -7,9 +7,8 @@ class Shoe
    def initialize(brands)
       @brands = brands
       @size =size
-       brands.each do |brand|
        if BRANDS > brands
-         BRANDS << brand
+         BRANDS.include?(brand)
        else 
           BRANDS
         end 
