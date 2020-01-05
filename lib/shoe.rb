@@ -7,10 +7,9 @@ class Shoe
    def initialize(brands)
       @brands = brands
       @size =size
-       if 
-         BRANDS.include?(brands)
+       if BRANDS.include?(brands)
        else 
-          BRANDS
+          BRANDS << brands
         end 
       
    end
